@@ -180,8 +180,10 @@ bag-of-words ignores meaning; English only. Details and future improvements are 
 
 ## AI Tools Disclosure
 
-Claude (Anthropic's AI assistant) was used to help generate the initial project code, the synthetic dataset generator and the
-documentation. The code was run and checked, and the author should be able to explain it (see the notes below).
+ChatGPT was used for understanding concepts,
+debugging assistance, documentation guidance
+and improving project organization.
+The code was run and checked, and the author should be able to explain it (see the notes below).
 **No API keys, passwords or tokens are included in this project.**
 
 ## Notes for the Technical Discussion (be ready to explain)
