@@ -1,0 +1,15 @@
+The dataset is well balanced: the largest category (Report, 52 tickets) is only 1.04x the size of the smallest (Login Issue, 50), so plain accuracy is a fair metric and no re-sampling is needed.
+'Application Error' tickets are most often High priority (65% of them); 'Account Update' tickets are least urgent (10% High).
+Overall 41% of tickets are Closed; the rest are still Open or In Progress.
+Descriptions are short (on average 13.1 words), so every keyword matters for the model.
+Each category has its own keywords (see below), which is why a bag-of-words / TF-IDF model is expected to work well.
+Some categories share vocabulary (e.g. 'account' appears in both Login Issue and Account Update tickets, 'update' in Account Update and Billing Issue, and one Performance ticket mentions a 'report' page), so a few confusions are expected.
+Filler words such as 'hi', 'help', 'support' and 'thanks' appear in every category; TF-IDF down-weights words that appear everywhere, so they should not mislead the model.
+
+Top keywords per category:
+Account Update: account, update, help, hi, support, need
+Application Error: error, hi, application, help, page, support
+Billing Issue: support, help, payment, hello, invoice, team
+Login Issue: login, sign, password, help, support, hi
+Performance: slow, help, application, kindly, resolve, soon
+Report: report, help, need, hi, sales, team

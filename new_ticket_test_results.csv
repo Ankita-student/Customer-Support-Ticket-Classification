@@ -1,0 +1,11 @@
+test_input,expected_category,predicted_category,confidence_%,result
+I can't remember my password and the site won't let me in,Login Issue,Login Issue,83.3,PASS
+Getting an exception and the app closes whenever I press save,Application Error,Application Error,74.2,PASS
+Please send me the sales figures summary for October,Report,Report,69.0,PASS
+"My phone number has changed, please update it in my profile",Account Update,Account Update,91.1,PASS
+"Everything is crawling, pages are taking ages to open",Performance,Performance,82.7,PASS
+I was debited twice for the same invoice,Billing Issue,Billing Issue,75.7,PASS
+The verification code never reaches my mobile when I try to sign in,Login Issue,Login Issue,79.4,PASS
+System throws an unexpected error when uploading a file,Application Error,Application Error,91.4,PASS
+Need a report of overdue invoices by customer,Report,Report,95.2,PASS
+Please change the email id registered with my account,Account Update,Account Update,91.3,PASS

@@ -1,0 +1,10 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+joblib>=1.2
+flask>=2.2
+reportlab>=3.6
+# Optional - only needed to auto-capture the web screenshot (make_screenshots.py skips it if missing):
+# playwright>=1.40

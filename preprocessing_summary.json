@@ -1,0 +1,21 @@
+{
+  "raw_rows": 322,
+  "missing_before": {
+    "ticket_id": 0,
+    "customer_name": 0,
+    "ticket_description": 2,
+    "date": 0,
+    "category": 1,
+    "priority": 4,
+    "status": 4
+  },
+  "exact_duplicates": 5,
+  "dropped_missing_description_or_category": 3,
+  "filled_priority": 4,
+  "filled_status": 4,
+  "priority_filled_with": "Medium",
+  "removed_exact_duplicates": 5,
+  "removed_duplicate_descriptions": 6,
+  "clean_rows": 308,
+  "n_categories": 6
+}

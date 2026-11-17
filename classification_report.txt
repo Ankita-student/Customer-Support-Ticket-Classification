@@ -1,0 +1,12 @@
+                   precision    recall  f1-score   support
+
+   Account Update       1.00      1.00      1.00        10
+Application Error       1.00      1.00      1.00        11
+    Billing Issue       0.83      1.00      0.91        10
+      Login Issue       1.00      1.00      1.00        10
+      Performance       1.00      0.90      0.95        10
+           Report       1.00      0.91      0.95        11
+
+         accuracy                           0.97        62
+        macro avg       0.97      0.97      0.97        62
+     weighted avg       0.97      0.97      0.97        62
